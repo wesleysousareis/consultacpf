@@ -1,0 +1,10 @@
+{      
+"url_base": "https://servicos.receita.fazenda.gov.br/servicos/cpf/consultasituacao/ConsultaPublica.asp",
+"env": {
+        "cpf_valido":"08203001360",
+        "data_valida":"27122001",
+        "user_name_invalid":"adelio.reis.maitha@@trademaster.com.br",
+        "email_reset_senha":"testeauto@trademaster.com.br",
+        "user_password_invalid":"654321"
+    }
+}

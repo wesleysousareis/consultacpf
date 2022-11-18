@@ -1,0 +1,56 @@
+{
+  "baseUrl": "https://tm-new-portal.hml.trademaster.com.br",
+  "defaultCommandTimeout": 50000,
+  "video": false,
+
+  "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "reportDir": "cypress/report",
+    "charts": true,
+    "reportPageTitle": "custom-title"
+  },
+  
+  "env": {
+      "user_name":"manuel.neto@trademaster.com.br",
+      "user_password":"M@nuel1234",
+      "user_name_invalid":"adelio.reis.maitha@@trademaster.com.br",
+      "email_reset_senha":"testeauto@trademaster.com.br",
+      "user_password_invalido":"654321",
+
+      "nameAgreement":"dicocel",
+      "name_client":"ANA GERALDA DA SILVA",
+      "number_invoice":"1495881",
+      "number_code":"15332565000143",
+      "number_cnpj":"15332565000143",
+
+    "url_enroll": "https://tm-enroll-service.hml.trademaster.com.br/enroll",
+    "url_capture": "https://tm-capture-service.hml.trademaster.com.br/capture",
+    "url_settleman": "https://tm-settlement-service.hml.trademaster.com.br/settlement",
+    "url_statement": "http://tm-statement-service.hml.trademaster.com.br/statement",
+  
+
+    "economicGroup": {
+      "arrangement": "PORTO VELHO",
+      "parentCustomer": "FH DA SILVA JUNDIAI LTDA",
+      "sonCustomer1": "CEARA BATERIAS BRAGANCA PAULISTA LTDA ME",
+      "sonCustomer2": "SILVA E PRESOTTO COM DE BAT LTDA ME",
+      "sonCustomer3": "CEARA BATERIAS ATIBAIA LTDA ME"
+    },
+
+    "chargeback": {
+      "arrangement": "DICOCEL",
+      "customer": "Ana Geralda Da Silva"
+    },
+
+    "data":{
+      "arrangement": "PERNOD RICARD",
+      "customer": "Megga Distribuidora Ltda"
+    },
+
+    "db": {
+      "user": "manuel.neto",
+      "pass": "",
+      "environment": "hml"
+    }
+  }
+}
